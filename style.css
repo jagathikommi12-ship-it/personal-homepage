@@ -17,8 +17,8 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--cream);
-  color: var(--navy);
+  background: var(--navy);
+  color: var(--cream);
   font-family: var(--font-body);
   line-height: 1.6;
   overflow-x: hidden;
@@ -42,24 +42,24 @@ a { text-decoration: none; color: inherit; }
 
 .btn-primary {
   background: var(--pink);
-  color: var(--cream);
+  color: var(--navy);
 }
-.btn-primary:hover { box-shadow: 0 6px 0 0 var(--navy); }
+.btn-primary:hover { box-shadow: 0 6px 0 0 var(--cream); }
 
 .btn-outline {
   background: transparent;
-  border: 2px solid var(--navy);
-  color: var(--navy);
+  border: 2px solid var(--cream);
+  color: var(--cream);
 }
-.btn-outline:hover { background: var(--navy); color: var(--cream); }
+.btn-outline:hover { background: var(--cream); color: var(--navy); }
 
 .btn-small {
   padding: 0.5rem 1.2rem;
   font-size: 0.85rem;
-  border: 2px solid var(--navy);
-  color: var(--navy);
+  border: 2px solid var(--cream);
+  color: var(--cream);
 }
-.btn-small:hover { background: var(--navy); color: var(--cream); }
+.btn-small:hover { background: var(--cream); color: var(--navy); }
 
 /* ===========================
    Navbar
@@ -71,9 +71,9 @@ a { text-decoration: none; color: inherit; }
   padding: 1.5rem 6%;
   position: sticky;
   top: 0;
-  background: var(--cream);
+  background: var(--navy);
   z-index: 100;
-  border-bottom: 2px solid var(--navy);
+  border-bottom: 2px solid var(--lavender);
 }
 
 .logo {
@@ -135,7 +135,7 @@ a { text-decoration: none; color: inherit; }
 .tagline {
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   margin: 1rem 0 2rem;
-  color: var(--navy);
+  color: var(--cream);
   opacity: 0.85;
 }
 
@@ -199,7 +199,7 @@ a { text-decoration: none; color: inherit; }
 .about-photo img {
   width: 100%;
   border-radius: 20px;
-  border: 3px solid var(--navy);
+  border: 3px solid var(--lavender);
 }
 
 .about-text p {
@@ -222,10 +222,10 @@ a { text-decoration: none; color: inherit; }
   font-weight: 500;
   padding: 0.7rem 1.4rem;
   border-radius: 100px;
-  border: 2px solid var(--navy);
+  border: 2px solid transparent;
 }
-.skill-pink { background: var(--pink); color: var(--cream); border-color: var(--pink); }
-.skill-lavender { background: var(--lavender); color: var(--navy); border-color: var(--lavender); }
+.skill-pink { background: var(--pink); color: var(--navy); }
+.skill-lavender { background: var(--lavender); color: var(--navy); }
 
 /* ===========================
    Projects
@@ -237,8 +237,8 @@ a { text-decoration: none; color: inherit; }
 }
 
 .project-card {
-  background: white;
-  border: 2px solid var(--navy);
+  background: #25253D;
+  border: 2px solid var(--lavender);
   border-radius: 20px;
   padding: 1.75rem;
   display: flex;
@@ -258,18 +258,19 @@ a { text-decoration: none; color: inherit; }
   font-weight: 700;
   margin-bottom: 1.25rem;
 }
-.thumb-pink { background: var(--pink); color: var(--cream); }
+.thumb-pink { background: var(--pink); color: var(--navy); }
 .thumb-lavender { background: var(--lavender); color: var(--navy); }
 
 .project-card h3 {
   font-family: var(--font-display);
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
+  color: var(--cream);
 }
 
 .project-card p {
   font-size: 0.95rem;
-  opacity: 0.8;
+  opacity: 0.75;
   margin-bottom: 1rem;
   flex-grow: 1;
 }
@@ -282,8 +283,8 @@ a { text-decoration: none; color: inherit; }
 }
 .project-tags span {
   font-size: 0.75rem;
-  background: var(--cream);
-  border: 1px solid var(--navy);
+  background: var(--navy);
+  border: 1px solid var(--lavender);
   padding: 0.25rem 0.7rem;
   border-radius: 100px;
 }
@@ -300,12 +301,12 @@ a { text-decoration: none; color: inherit; }
 =========================== */
 .section-contact {
   text-align: center;
-  background: var(--navy);
-  color: var(--cream);
+  background: var(--cream);
+  color: var(--navy);
   border-radius: 32px;
   margin: 0 4% 4%;
 }
-.section-contact .section-label { color: var(--lavender); }
+.section-contact .section-label { color: var(--pink); }
 .section-contact h2 {
   font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 3.2rem);
@@ -318,8 +319,9 @@ a { text-decoration: none; color: inherit; }
   gap: 1rem;
   flex-wrap: wrap;
 }
-.section-contact .btn-outline { border-color: var(--cream); color: var(--cream); }
-.section-contact .btn-outline:hover { background: var(--cream); color: var(--navy); }
+.section-contact .btn-outline { border-color: var(--navy); color: var(--navy); }
+.section-contact .btn-outline:hover { background: var(--navy); color: var(--cream); }
+.section-contact .btn-primary { color: var(--navy); }
 
 /* ===========================
    Footer

@@ -3,7 +3,7 @@
 My personal portfolio site, built from scratch with HTML, CSS, and no frameworks (yet — React version coming in a later phase).
 
 ## Live site
-_Add your GitHub Pages link here once deployed._
+https://jagathikommi12-ship-it.github.io/personal-homepage/
 
 ## Sections
 - Hero — intro + tagline
