@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jagathi Kommi — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Jagathi Kommi, CS undergrad making machines do cool things.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <a href="#hero" class="logo">JK<span class="logo-dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="assets/resume-placeholder.pdf" class="btn btn-small" download>Resume</a>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Hey, I'm</p>
+      <h1>Jagathi Kommi</h1>
+      <p class="tagline">Making machines do cool things.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="blob blob-pink"></div>
+      <div class="blob blob-lavender"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <p class="section-label">01 — About</p>
+    <div class="about-grid">
+      <div class="about-photo">
+        <!-- PLACEHOLDER: replace src with your real photo, e.g. assets/profile.jpg -->
+        <img src="https://placehold.co/360x360/1B1B2F/FFF9F5?text=Your+Photo" alt="Photo of Jagathi Kommi">
+      </div>
+      <div class="about-text">
+        <p>I'm a Computer Science undergrad at UMass Amherst who loves figuring out how things work, then building my own version that's better.</p>
+        <p>Right now I'm deep in full-stack development and exploring how AI can make everyday tools smarter. This site doubles as my build log for the summer — everything below is something I actually shipped.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <p class="section-label">02 — Skills</p>
+    <div class="skills-grid">
+      <div class="skill-pill skill-pink">Java</div>
+      <div class="skill-pill skill-lavender">JavaScript</div>
+      <div class="skill-pill skill-pink">HTML &amp; CSS</div>
+      <div class="skill-pill skill-lavender">React</div>
+      <div class="skill-pill skill-pink">Spring Boot</div>
+      <div class="skill-pill skill-lavender">SQL</div>
+      <div class="skill-pill skill-pink">Git &amp; GitHub</div>
+      <div class="skill-pill skill-lavender">Python</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <p class="section-label">03 — Projects</p>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-thumb thumb-pink">01</div>
+        <h3>AI job tracker</h3>
+        <p>Full-stack app to track job applications with an AI resume coach and mock interview feature.</p>
+        <div class="project-tags">
+          <span>React</span><span>Spring Boot</span><span>Claude API</span>
+        </div>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-lavender">02</div>
+        <h3>Coming soon</h3>
+        <p>This slot is reserved for your next project. Swap this card out once it's ready.</p>
+        <div class="project-tags">
+          <span>TBD</span>
+        </div>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-pink">03</div>
+        <h3>Coming soon</h3>
+        <p>Another project slot — keep this site growing as you build more this summer.</p>
+        <div class="project-tags">
+          <span>TBD</span>
+        </div>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-contact">
+    <p class="section-label">04 — Contact</p>
+    <h2>Let's talk.</h2>
+    <p class="contact-sub">Open to internships, collabs, or just chatting about cool projects.</p>
+    <div class="contact-links">
+      <a href="mailto:youremail@example.com" class="btn btn-primary">Email me</a>
+      <a href="https://www.linkedin.com/in/jagathikommi" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+      <!-- PLACEHOLDER: replace # with your real GitHub URL once created -->
+      <a href="#" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Jagathi Kommi. Built from scratch, one commit at a time.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
